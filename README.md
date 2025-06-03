@@ -23,7 +23,7 @@ pip install -r requirements.txt
 `{population_district, weather, traffic}_data.ipynb` for traffic, population and weather data modifications
 `merge_{traffic_population, weather_traffic}.ipynb` for merging traffic, population and weather data
 
-- **Modeling:** Training LSTM models with different optimization methods, we have used each model in different notebook for clarity as:
+- **Modeling:** Training LSTM models with different optimization methods, in `main/` folder, we have used each model in different notebook for clarity as:
 `main_{adam, bayes, bayes_manuel, pso, pso_mae}.ipynb` for training LSTM models with Adam, Bayesian and Particle Swarm Optimization methods.
 
 - **Experimental Analysis:** Tried alternative techniques to improve the quality of optimization techniques and experiments:
