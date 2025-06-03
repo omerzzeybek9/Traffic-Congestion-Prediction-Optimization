@@ -22,7 +22,7 @@ pip install -r requirements.txt
 - **Visualization:** Evaluation of results and visual analysis.
 
 ## Outputs
-The notebooks generate prediction results and visualizations comparing different optimization techniques on traffic congestion forecasting.
+The notebooks generate prediction results and visualizations comparing different optimization techniques on traffic congestion prediction.
 
 ## Notes
 - If any errors occur, make sure that all library dependencies are installed and up to date.
