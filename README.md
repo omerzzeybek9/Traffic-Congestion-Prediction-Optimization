@@ -23,6 +23,10 @@ pip install -r requirements.txt
 ## Outputs
 The notebooks generate prediction results and visualizations comparing different optimization techniques on traffic congestion forecasting.
 
+## Notes
+- If any errors occur, ensure all library dependencies are installed and up-to-date.
+- We will be sending an already activated notebook, so you can also redownload it!
+
 ## Authors
 Anıl Dervişoğlu, 150220344  
 Ömer Faruk Zeybek, 150220743
