@@ -1,5 +1,8 @@
 # Traffic Congestion Prediction Optimization
 
+## Introduction
+This is an optimization project we have done for the lesson 'YZV202E - Optimization For Data Science'. You can check the project content and data files directly from https://github.com/omerzzeybek9/Traffic-Congestion-Prediction-Optimization as they data files and others cannot be uploaded to ninova due to their size.
+
 ## Project Overview
 This project aims to predict traffic congestion levels in Istanbul districts using time series analysis with LSTM neural networks. Various datasets such as population, public transport, weather and traffic data were combined, cleaned and analyzed.
 
