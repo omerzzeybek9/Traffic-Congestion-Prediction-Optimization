@@ -1,7 +1,7 @@
 # Traffic Congestion Prediction Optimization
 
 ## Project Overview
-This project aims to predict traffic congestion levels in Istanbul districts using time series analysis with LSTM neural networks. Various datasets such as population, public transport, weather, and traffic data were combined, cleaned, and analyzed.
+This project aims to predict traffic congestion levels in Istanbul districts using time series analysis with LSTM neural networks. Various datasets such as population, public transport, weather and traffic data were combined, cleaned and analyzed.
 
 ## Dataset
 - The datasets can be found under the `data/` and `original_data/` folders.
@@ -22,8 +22,13 @@ pip install -r requirements.txt
 `{bus, rayli}_count_district.ipynb` for assigning bus and railway stop counts to districts
 `{population_district, weather, traffic}_data.ipynb` for traffic, population and weather data modifications
 `merge_{traffic_population, weather_traffic}.ipynb` for merging traffic, population and weather data
-- **Modeling:** Training LSTM models with different optimization methods.
-- **Experimental Analysis:** Tried alternative techniques to improve the quality of experiments.
+
+- **Modeling:** Training LSTM models with different optimization methods, we have used each model in different notebook for clarity as:
+`main_{adam, bayes, bayes_manuel, pso, pso_mae}.ipynb` for training LSTM models with Adam, Bayesian and Particle Swarm Optimization methods.
+
+- **Experimental Analysis:** Tried alternative techniques to improve the quality of optimization techniques and experiments:
+`{pso_experiments}.ipynb` for Particle Swarm Optimization experiments explained in the report.
+
 - **Visualization:** Evaluation of results and visual analysis.
 
 ## Outputs
