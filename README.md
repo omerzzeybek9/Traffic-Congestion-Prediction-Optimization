@@ -15,7 +15,7 @@ To run the notebooks and reproduce the results you need the Python libraries lis
 pip install -r requirements.txt
 ```
 
-## Project Structure
+## Project Contents
 - **Data Cleaning:** Preparation and cleaning of raw datasets.
 - **Modeling:** Training LSTM models with different optimization methods.
 - **Visualization:** Evaluation of results and visual analysis.
