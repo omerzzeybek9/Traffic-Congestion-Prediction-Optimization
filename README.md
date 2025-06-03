@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ## Project Contents
 - **Data Cleaning:** Preparation and cleaning of raw datasets.
 - **Modeling:** Training LSTM models with different optimization methods.
-- **Experimental Analysis** Tried alternative techniques to improve the quality of experiments.
+- **Experimental Analysis:** Tried alternative techniques to improve the quality of experiments.
 - **Visualization:** Evaluation of results and visual analysis.
 
 ## Outputs
