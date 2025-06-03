@@ -1,7 +1,7 @@
 # Traffic Congestion Prediction Optimization
 
 ## Project Overview
-Our aim in this project is to predict traffic congestion levels in Istanbul districts using time series analysis with LSTM neural networks. Various datasets such as population, public transport, weather and traffic data were combined, cleaned and analyzed.
+This project aims to predict traffic congestion levels in Istanbul districts using time series analysis with LSTM neural networks. Various datasets such as population, public transport, weather, and traffic data were combined, cleaned, and analyzed.
 
 ## Dataset
 - The datasets can be found under the `data/` and `original_data/` folders.
@@ -27,11 +27,11 @@ pip install -r requirements.txt
 - **Visualization:** Evaluation of results and visual analysis.
 
 ## Outputs
-The notebooks generate prediction results and visualizations comparing different optimization techniques on traffic congestion forecasting.
+The notebooks generate prediction results and visualizations comparing different optimization techniques on traffic congestion prediction.
 
 ## Notes
-- If any errors occur, ensure all library dependencies are installed and up-to-date.
-- We will be sending an already activated notebook, so you can also redownload it!
+- If any errors occur, make sure that all library dependencies are installed and up to date.
+- We will be sending an already activated notebook so you can also redownload it!
 
 ## Authors
 Anıl Dervişoğlu, 150220344  
