@@ -1,11 +1,12 @@
 # Traffic Congestion Prediction Optimization
 
 ## Project Overview
-This project aims to predict traffic congestion levels in Istanbul districts using time series analysis with LSTM neural networks. Various datasets such as population, public transport, weather, and traffic data were combined, cleaned, and analyzed.
+Our aim in this project is to predict traffic congestion levels in Istanbul districts using time series analysis with LSTM neural networks. Various datasets such as population, public transport, weather and traffic data were combined, cleaned and analyzed.
 
 ## Dataset
-- The dataset can be found in the `data/` and `original_data/` folders.
+- The datasets can be found under the `data/` and `original_data/` folders.
 - You can use processed data (`data/`) or raw data (`original_data/`) depending on what you want to do.
+- Depending on the size we might not be able to upload all the data, in such case please consider only using final `data/all_data_merged.csv` dataset to run main notebooks.
 
 ## Prerequisites
 To run the notebooks and reproduce the results you need the Python libraries listed in `requirements.txt`:
@@ -16,7 +17,11 @@ pip install -r requirements.txt
 ```
 
 ## Project Contents
-- **Data Cleaning:** Preparation and cleaning of raw datasets.
+- **Data Cleaning:** Preparation and cleaning of raw datasets. Under the `data_manipulations/` folder you can find out specific notebooks for each dataset we have specified as:
+`{bus, rayli}_data.ipynb` for bus and railway system data modifications
+`{bus, rayli}_count_district.ipynb` for assigning bus and railway stop counts to districts
+`{population_district, weather, traffic}_data.ipynb` for traffic, population and weather data modifications
+`merge_{traffic_population, weather_traffic}.ipynb` for merging traffic, population and weather data
 - **Modeling:** Training LSTM models with different optimization methods.
 - **Experimental Analysis:** Tried alternative techniques to improve the quality of experiments.
 - **Visualization:** Evaluation of results and visual analysis.
