@@ -9,7 +9,8 @@ This project aims to predict traffic congestion levels in Istanbul districts usi
 - Depending on the size we might not be able to upload all the data, in such case please consider only using final `data/all_data_merged.csv` dataset to run main notebooks.
 
 ## Prerequisites
-To run the notebooks and reproduce the results you need the Python libraries listed in `requirements.txt`:
+- To run the notebooks and reproduce the results you need the Python libraries listed in `requirements.txt`.
+- Especially the data of "hourly traffic in Istanbul" is considerably large, so we weren't able to upload it to github or ninova (can be seen in `.gitignore` file as well). If you want to use only the main LSTM optimization notebooks it is not required, but to run data manipulation notebooks you should download this data from: https://ulasav.csb.gov.tr/dataset/34-hourly-traffic-density-data-set and put directly into `original_data/` folder.
 
 ### Install requirements
 ```bash
